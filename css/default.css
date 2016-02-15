@@ -1,0 +1,27 @@
+h2.logo {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+nav ul, nav form {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li {
+    display: inline-block;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav button {
+    background: #ccc;
+    border: 0px;
+
+}
+
+footer ul li {
+    display: inline-block;
+}
