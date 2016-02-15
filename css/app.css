@@ -1,11 +1,11 @@
 /*
 Syntax error: Invalid CSS after "  small": expected ")", was ": 0,"
         on line 75 of /Users/m735449/Documents/workspace/MewBootCamp/scss/_settings.scss
-        from line 1 of /Users/m735449/Documents/workspace/MewBootCamp/scss/default.scss
+        from line 3 of /Users/m735449/Documents/workspace/MewBootCamp/scss/app.scss
 
 Backtrace:
 /Users/m735449/Documents/workspace/MewBootCamp/scss/_settings.scss:75
-/Users/m735449/Documents/workspace/MewBootCamp/scss/default.scss:1
+/Users/m735449/Documents/workspace/MewBootCamp/scss/app.scss:3
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1129:in `expected'
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/lexer.rb:199:in `expected!'
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/parser.rb:476:in `assert_tok'
@@ -97,4 +97,4 @@ org/jruby/RubyKernel.java:1419:in `loop'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"  small\": expected \")\", was \": 0,\"\A         on line 75 of /Users/m735449/Documents/workspace/MewBootCamp/scss/_settings.scss\A         from line 1 of /Users/m735449/Documents/workspace/MewBootCamp/scss/default.scss"; }
+  content: "Syntax error: Invalid CSS after \"  small\": expected \")\", was \": 0,\"\A         on line 75 of /Users/m735449/Documents/workspace/MewBootCamp/scss/_settings.scss\A         from line 3 of /Users/m735449/Documents/workspace/MewBootCamp/scss/app.scss"; }

@@ -1,0 +1,59 @@
+@import "_settings";
+
+* {
+  font-family: arial, helvetica, sans-serif;
+}
+
+nav {
+  ul, form {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+
+    li {
+      display:inline-block;
+    }
+    ul {
+      display: none;
+    }
+  }
+
+  button {
+    background: #ccc;
+    border: 0px;
+  }
+
+  h2.logo {
+  /*  text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;*/
+    font-size: 2em;
+    background-image: url(images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: 1.5em;
+  }
+
+}
+
+main {
+  ul.features {
+    margin:0px;
+
+    li {
+      margin-left: 1em;
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
+footer {
+  ul {
+    li {
+      display: inline-block;
+    }
+  }
+}

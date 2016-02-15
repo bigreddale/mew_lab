@@ -13,8 +13,8 @@
 <body>
 <header class="">
     <nav class="topnav row">
-        <h2 class="logo small-12 columns">Mountain Trail</h2>
-        <ul class="small-2 medium-6 large-6 columns">
+        <h2 class="logo small-12">Mountain Trail</h2>
+        <ul class="small-2 medium-6 large-6">
             <li><a href="">Products</a>
             <ul>
                 <li><a href="">Footwear</a></li>
@@ -41,14 +41,30 @@
             <li><a href="">About Mountain Trail & Company History</a></li>
             <li><a href="">Contact Us</a></li>
         </ul>
-        <form action="javascript:void(0)" class="small-10 medium-6 large-6 columns">
+        <form action="javascript:void(0)" class="small-10 medium-6 large-6">
             <input type="text" placeholder="Search"/>
             <button value="submit"><i class="fa fa-search"></i></button>
             <button value="findStore">Find a Store Nearby</button>
         </form>
     </nav>
 </header>
-<main></main>
+<main>
+    <h1>Newsletter Signup</h1>
+    <form>
+        <label for="email" class="required">Email</label>
+        <input type="text" name="email"/>
+
+        <fieldset>
+            <legend>Activities / Interests</legend>
+
+            <input type="checkbox" name="swimming"/><label for="swimming">Swimming</label><br/>
+            <input type="checkbox" name="cycling"/><label for="cycling">Cycling</label><br/>
+            <input type="checkbox" name="running"/><label for="running">Running</label><br/>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+</main>
 <footer>
 <ul>
     <li><a href="">Testimonials</a></li>
